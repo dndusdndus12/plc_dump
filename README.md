@@ -22,7 +22,7 @@ The files are hosted on a public [GitHub repository](https://github.com/dndusdnd
 
 ```
 - Binary data can be inspected using `binwalk`, `xxd`, or custom scripts.
-- Visual comparison with results in Sections 4–6 of the paper is recommended.
+- Visual comparison with results in Sections 4–7 and Appendix of the paper is recommended.
 - Observe RAP effects via duplicated data regions across address spaces.
 ```
 
