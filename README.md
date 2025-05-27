@@ -4,14 +4,7 @@
 
 This artifact provides raw PLC memory dumps that support partial verification of the memory analysis presented in our WOOT '25 paper. The dataset includes memory acquired from three PLCs using protocol-based or physical access methods. It is intended for static analysis and does not require execution.
 
-Users may explore the memory layout characteristics, such as code regions, metadata, padding, and address aliasing (RAP), and validate their presence using standard binary analysis tools (e.g., binwalk). No setup scripts are required. The files are safe for offline analysis and do not contain active or malicious code.
-
-```
-- Raw memory structure aligns with descriptions in Section 4–6 of the paper.
-- RAP region phenomena are observable in provided dumps.
-- Features such as control logic, metadata, and padding can be visually and statistically verified.
-- The binary structure of executable code in M241 and M221 is verifiable using binwalk or other binary analysis tools.
-```
+Users may explore the memory layout characteristics, such as code regions, metadata, padding, and address aliasing (RAP), and validate their presence using standard binary analysis tools (e.g., binwalk). The files are safe for offline analysis and do not contain active or malicious code.
 
 These binary images are static, do not contain malicious code, and are safe to analyze.
 
@@ -20,7 +13,7 @@ These binary images are static, do not contain malicious code, and are safe to a
 
 - **M221**: Schneider Electric (Modbus UMAS) - Full 4GB dump.
 - **M241**: Schneider Electric (Modbus UMAS) - Partial (64MB) dump.
-- **AB 1756**: Allen-Bradley (PCCC) - Acquired via JTAG.
+- **AB 1756**: Allen-Bradley (JTAG).
 
 
 
