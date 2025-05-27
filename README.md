@@ -38,8 +38,8 @@ This artifact includes raw binary dumps from three PLCs analyzed in our paper:
 
 ## Supporting Visuals
 - `/SE/M221_RAP_Regions_cut.png`: Highlight of RAP-mirrored regions in M221.
-- `/SE/M241_00000000_4ffdd000_80.png`: Visualization of dense memory region in M241.
-- `/AB/AB_1756_00000000_0840FFFF.bin_dH.png`: Entropy visualization of AB 1756 memory.
+- `/SE/M241_00000000_4ffdd000_80.png`: Visualization of memory dump from M241.
+- `/AB/AB_1756_00000000_0840FFFF.bin_dH.png`: Visualization of memory dump from M241.
 
 
 ## Citation
