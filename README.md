@@ -1,4 +1,4 @@
-# WOOT 2025 Artifact: PLC Memory Dump Dataset
+# WOOT'25 Artifact: PLC Memory Dump Dataset
 
 # Artifact Abstract
 
