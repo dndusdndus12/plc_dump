@@ -34,10 +34,13 @@ This artifact includes raw binary dumps from three PLCs analyzed in our paper:
 - `/SE/M241_00000000_4ffdd000.bin`: 1.34GB memory dump from Modicon M241 via UMAS protocol.
 - `/AB/AB_1756_00000000_0840FFFF.bin`: 138MB dump acquired from Allen-Bradley 1756 PLC via JTAG interface.
 
+<br></br>
+
 ## Supporting Visuals
 - `/SE/M221_RAP_Regions_cut.png`: Highlight of RAP-mirrored regions in M221.
 - `/SE/M241_00000000_4ffdd000_80.png`: Visualization of dense memory region in M241.
 - `/AB/AB_1756_00000000_0840FFFF.bin_dH.png`: Entropy visualization of AB 1756 memory.
+
 
 ## Citation
 Please cite the corresponding WOOT 2025 paper `TBD` when using this dataset.
